@@ -1,1 +1,15 @@
+print("Hellor word")
+print("this is my first test! Please, do not consider the simplicity of this program")
+print("this is a game of divination")
+print("Whats your name?")
+name = input("your name: ")
+print(f"Hi {name}, lets start...")
+print("you have to try hit the random chosen number between 1 to 10")
 import random
+value = random.randrange(0,10,2)
+print("Try to guess the number I choosed")
+number = input()
+if "number" == value:
+    print ("congrats!")
+elif "number" != value:
+    print("sorry, good luck for next time" )
